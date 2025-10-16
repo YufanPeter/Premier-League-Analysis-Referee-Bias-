@@ -11,7 +11,7 @@ This repository contains an end-to-end machine learning project that scrapes, an
 
 ## 🌟 Why It Matters
 
-In the world of sports, integrity is everything. While outright corruption is rare, unconscious bias—favoring home teams, big clubs, or reacting to crowd pressure—can subtly influence the beautiful game. This project aims to:
+In the world of sports, integrity is everything. While outright corruption is rare, unconscious bias—favoring home teams, big clubs can subtly influence the beautiful game. This project aims to:
 
 * **Provide Objective Analysis:** Replace emotional debate with statistical evidence and machine learning models.
 * **Showcase a Full-Stack ML Project:** Demonstrate a complete workflow from data acquisition and feature engineering to model training and interpretation.
@@ -50,28 +50,3 @@ With our generated labels, a regularized **Multi-Layer Perceptron (MLP) classifi
 The final model achieved an **80% accuracy** and a **0.85 AUC score**, demonstrating a strong ability to distinguish between matches it identifies as potentially biased and those it considers neutral.
 
 This confirms that patterns of potentially biased officiating are not just random noise—they are detectable and can be modeled with a significant degree of accuracy. The model provides a quantitative tool to flag games that warrant closer scrutiny.
-
-## 🚀 Getting Started
-
-Want to run the analysis yourself?
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YufanPeter/Premier-League-Analysis-Referee-Bias-.git](https://github.com/YufanPeter/Premier-League-Analysis-Referee-Bias-.git)
-    cd Premier-League-Analysis-Referee-Bias-
-    ```
-
-2.  **Install the dependencies:**
-    It's recommended to use a virtual environment.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Explore the notebooks:**
-    The analysis is broken down into several Jupyter notebooks. Start with the data scraping and EDA notebook to follow the journey from raw data to final insights!
-    * `Data Scraping.ipynb`
-    * `Data Cleaning & Preprocessing.ipynb`
-    * `Exploratory Data Analysis (EDA).ipynb`
-    * `Modeling.ipynb`
-
----
