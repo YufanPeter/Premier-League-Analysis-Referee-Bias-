@@ -14,14 +14,13 @@ This repository contains an end-to-end machine learning project that scrapes, an
 In the world of sports, integrity is everything. While outright corruption is rare, unconscious bias—favoring home teams, big clubs can subtly influence the beautiful game. This project aims to:
 
 * **Provide Objective Analysis:** Replace emotional debate with statistical evidence and machine learning models.
-* **Showcase a Full-Stack ML Project:** Demonstrate a complete workflow from data acquisition and feature engineering to model training and interpretation.
 * **Build an Analytical Tool:** Create a model that can flag matches with a high probability of biased officiating, serving as a powerful tool for sports analytics.
 
 ## 🛠️ Tech Stack
 
 This project leverages a modern stack for data science and machine learning:
 
-* **Data Collection:** `Python`, `Requests`, `BeautifulSoup4`
+* **Data Collection:** `Python`, `Requests`
 * **Data Manipulation & Analysis:** `Pandas`, `NumPy`, `SciPy` (for statistical tests)
 * **Data Visualization:** `Matplotlib`, `Seaborn`
 * **Machine Learning:** `Scikit-learn` (for clustering and preprocessing), `TensorFlow` (for the MLP classifier)
